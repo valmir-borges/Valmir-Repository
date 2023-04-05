@@ -20,7 +20,7 @@ function somar ()
 {
     let num1 = document.getElementById("num1").value;
     let num2 = document.getElementById("num2").value;
-    let num3 = num1 + num2
+    let num3 = parseFloat(num1) + parseFloat(num2);
     document.getElementById("resultado").innerHTML = "Resultado: " + num3
 
 }
