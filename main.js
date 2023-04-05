@@ -53,7 +53,7 @@ function div ()
 {
     let num10 = document.getElementById("num7").value;
     let num11 = document.getElementById("num8").value;
-    let num12 = parseFloat(num7) / parseFloat(num8);
+    let num12 = parseFloat(num10) / parseFloat(num11);
     document.getElementById("resultado3").innerHTML = "Resultado: " + num12;
 
 }
